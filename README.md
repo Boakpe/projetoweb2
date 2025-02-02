@@ -37,7 +37,7 @@ Este projeto consiste em um backend desenvolvido com Spring Boot e um frontend c
 1. Abra um terminal e navegue até o diretório frontend
 2. Instale as dependências:
    ```sh
-   npm install
+   npm install --force
    ```
 
 3. Para iniciar o servidor de desenvolvimento local:
