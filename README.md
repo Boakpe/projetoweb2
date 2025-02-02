@@ -51,11 +51,3 @@ A aplicação Angular estará disponível em http://localhost:4200/
 
 - Certifique-se de que o backend esteja em execução antes de testar as chamadas API do frontend
 - Alterações nos arquivos fonte acionarão automaticamente recarregamentos nos servidores de desenvolvimento
-
-## 🤝 Contribuindo
-
-Sinta-se à vontade para contribuir com este projeto. Toda contribuição é bem-vinda!
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
