@@ -1,0 +1,6 @@
+2025-01-29 15:51:46.986396-03:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "WIDESCREEN_IMAGE_URL CHARACTER VARYING(255)": "'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsckaUDr0nE7dcLLlD-O... (301)"; SQL statement:
+insert into game (copies_sold,created_at,description,discount_percentage,price,release_date,square_image_url,title,widescreen_image_url,game_id) values (?,?,?,?,?,?,?,?,?,default) [22001-232]
+2025-01-29 15:51:53.910013-03:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "WIDESCREEN_IMAGE_URL CHARACTER VARYING(255)": "'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsckaUDr0nE7dcLLlD-O... (301)"; SQL statement:
+insert into game (copies_sold,created_at,description,discount_percentage,price,release_date,square_image_url,title,widescreen_image_url,game_id) values (?,?,?,?,?,?,?,?,?,default) [22001-232]
