@@ -188,6 +188,7 @@ export class GameDetailsComponent implements OnInit {
         this.calculateAverageRating();
         this.newRating = { rating: 5, comment: '' };
         this.ratingError = null;
+        this.hasAlreadyRated = true; // Add this line
       },
       error: (error) => {
         this.ratingError = error.error.detail || 'Failed to submit rating';

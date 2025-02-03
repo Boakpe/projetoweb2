@@ -23,7 +23,7 @@ export class GamesComponent implements OnInit {
   }
 
   private fetchGames() {
-    this.http.get<Game[]>(`${environment.apiUrl}/games`)
+    this.http.get<Game[]>(`${environment.apiUrl}/games?limit=1000`)
       .subscribe({
         next: (games) => {
           this.games = games;
